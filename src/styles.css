@@ -1,0 +1,40 @@
+.App {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue";
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.form-control {
+  text-align: center;
+  
+}
+.form-control:focus {
+  border-color: #A3DBF6
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.Logo {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/62be2633e9cdbe321dc30465/5747e740-48ef-4718-ba0e-914ca1dfe9c4/3.png?format=1500w");
+}
+
+.currency-wrap {
+  position: relative;
+}
+
+.currency-code {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+.text-currency {
+  padding: 10px 20px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  margin: 5px;
+}
